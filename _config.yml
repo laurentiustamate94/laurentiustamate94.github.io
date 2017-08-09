@@ -2,7 +2,7 @@ title: Laurentiu Stamate – A cleaner code reflects a clearer mind
 email: laurentiu.stamate@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   This is personal blog.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://laurentiustamate94.github.io" # the base hostname & protocol for your site
 
 # Social
