@@ -1,0 +1,10 @@
+language: ruby
+script: "./build.sh" # execute this script on each commit
+branches:
+  only:
+  - content # only take into account `content' branch
+rvm:
+- 2.1.2 # version of `ruby'
+env:
+  global:
+    secure: nnLAH9LfvcW8Hd0IPrIqtmhU0N69JL1qPzzjpoRVqvKEgVKcTNe6xh1iYV6CYDVmPd+8rVx6xyRUmxLCxMMy5MQGsfb+fFQceebi5/O7vO2aoxTp0OAYqTc9E/1j+RbvZaiE6RpJnufCi3ihYOD9C8ubhb+wMH9yTuMYiPC1AeZw6+0+jcT79VexicfRIG+B42toOYflSbeGhh2CXfO5aLjHxtaUVpiQLDy4mD9gZVB0D9I88m9zDYE1TI72up6SpTGU1RIH59XYHZGp5HaiAudcbTfkuc2IbIm4qt39F7ButkI72nsxmT//FTcGc4Wo7colGhDy5QKHgZ+/E2yADm7sgJr27LrVJFWLPnoBq91flYNubQX7NlmBlrBN8RClGmDLe09EvDUyWOJPDrXfXjCLGYl/p4qTX/BakD4tKHnD8AkyRMrqXKYJAAyYwji58+l7EfZhZ1m/3PQzHOW5YZfuFgzcnbt/Ef81kQEZOyfM33bB29dRDA+ery8OPQeKLjTAu3fOCnhQeCsqocaVm90Ud2TIc0S6H4w9KMikG3UFs10d2WX3nZRihNYLAiM5asEyIjJuZPwjGxEFxjADq0z+p5KG33LjBXCZM+3uw7FFlQ5AkSQWyrE1Ga/ulwrsSZH2z5I6PxIxhuqccazSW7dIsyQAZcc7LWQ10SlbO1I=
