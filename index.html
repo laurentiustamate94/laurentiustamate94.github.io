@@ -329,6 +329,7 @@
 						_replyto: email,
 						message: message
 					},
+                    dataType: "json",
 					cache: false,
 					success: function() {
 						// Success message
@@ -337,7 +338,7 @@
 						//clear all fields
 						$('#contactForm').trigger("reset");
 					},
-					error: function(a,b,c,d) {
+					error: function() {
 						// Fail message
 						$('.contact-alert').html("<div class='alert alert-danger'>");
 						$('.contact-alert > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'><i class='fa fa-times'></i></button><strong>Sorry, it seems that my mail server is not responding. Please try again later!</strong></div>");
